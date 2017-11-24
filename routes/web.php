@@ -12,10 +12,7 @@
 */
 
 
-Route::get('/',function(){
-    return view('welcome');
-});
-
+*/
 Route::get('/','HomeController@index');
 
 
@@ -33,4 +30,3 @@ Route::get('cool','Cool\TestController@index');
 
 Route::get('/board','BoardController@getIndex');
 
-Route::get('/score','StudentController@getStudentScore');
